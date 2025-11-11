@@ -1,0 +1,29 @@
+Linux
+Azure-cloud
+Azure Devops:
+  artifcats
+  repos
+  workitem
+  pipelines
+  testmanagement
+Git Slack:
+  YAML scripting
+  terraform
+  kubernetes
+  ansible
+  docker
+  maven
+  ARM templates
+Monitoring:
+  prometheus
+  grafana
+Securities:
+  Talisman
+  SonarQube
+  codecoverage - JACOCO
+  Helmscharts
+  istio services -mesh
+Live projects:
+  ASP .net web application automation
+  JAVA MAven Automation
+  SQL Database automation
