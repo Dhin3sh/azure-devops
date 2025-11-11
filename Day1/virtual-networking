@@ -22,3 +22,61 @@ since we have a large range, we will be wasting large number if ips so need to b
 subnetting - practice of dividing a larger n/w into smaller groups, this increases routing efficiency and network-security
             reduce the broadcast size.
       10.0.1.0/24 - 255 private-ips
+-----------------------------------------------------------------------------------------------------------------------------
+
+Azure VNet:
+            fundamental building block for our private n/w in Azure
+            vnet enables many types of Azure VMs to securely communicate with each other and on-prem n/w
+                        communicate with op-prem resources:
+                                    point-to-site VPN
+                                    site-to-site VPN
+                                    Azure ExpressRoute
+                        Communicate between Azure resources:
+                                    Through a virtual network
+                                    Through a virtual network service endpoint
+                                    through vnet peering
+                        Filter network traffic:
+                                    NSG/ASG
+                                    NVA
+                        Route network traffic
+                                    reoute tables
+            Filter network traffic:
+                        filter network traffic bw subnets using NSG/ASG or network virtual appliances
+
+ - representation of cloud network
+ - hybrid scenarios
+ - dedicated instances
+ - conectivity between azure services
+
+there are 3 classes in subnets
+class A - 10.x.x.x
+class B - 172.x.x.x
+class C - 192.x.x.x
+
+
+10.0.0.0/16             #when thers is 16 first two blocks are blocked
+
+10.0.1.0
+10.0.1.1
+ :
+10.0.1.254
+10.0.2.0
+10.0.2.1
+ :
+10.0.2.254
+
+subnet mask 255.255.0.0/16
+             8   8   8 8
+
+10.0.1.0/24              #when there is 24 first 3 blocks are blocked
+10.0.1.1
+10.0.1.2
+ :
+10.0.1.254
+
+network-security-group(NSG) - minimal security feature enabled to our network this filters network traffic
+filter traffic, Association, evaluation, Rule set.
+ - only exposed port will be allowed
+ - can be assigned to multiple services(subnet layer, nic, so on.,)
+ - properties:
+            
