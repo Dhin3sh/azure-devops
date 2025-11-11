@@ -1,0 +1,47 @@
+##  cloud-concepts ##
+
+Saas - software as a service
+  e.g: Gmail, Google workforce, salesforce,
+PaaS - Platform as a service
+  e.g: AWS Elastic Beanstalk, Herohu,
+IaaS - Infrastructure as a service
+  e.g: AWS, Azure, GCP,
+On-Prem - manage local data center
+  e.g: Local Data Center
+
+## shared-responsibility-model ##
+M - Microsoft, C - customer, S - Shared
+
+responsibility always retained by the customer:
+                                            SaaS PaaS IaaS On-Prem
+  1. Information and data                    C    C    C    C        
+  2. Devices                                 C    C    C    C
+  3. Account and identites                   C    C    C    C
+
+responsibility varies type:
+                                            SaaS PaaS IaaS On-Prem
+  1. Identity and directory infrastracture   S    S    C    C
+  2. Applications                            M    S    C    C
+  3. Network control                         M    S    C    C
+  4. Operating System                        M    M    M    C
+
+responsibility transfers to cloud providers 
+                                            SaaS PaaS IaaS On-Prem
+  1. Physical hosts                         M    M    M    C
+  2. Physical network                       M    M    M    C
+  3. Physical datacenter                    M    M    M    C
+
+
+datacenter will have its own:
+- networking
+- power supply
+- devices -> CPUs, Memory, STAN, Firewalls, switches, Storages.
+
+to bring datacenter to be available global for less latency,
+there are big players AWS, Azure, GCP. multiple locations are tightly coupled
+with which we can achieve response in micro seconds, this serves a classic example of IaaS
+
+- companies prefer multi-cloud and hybrid service providers
+
+
+
