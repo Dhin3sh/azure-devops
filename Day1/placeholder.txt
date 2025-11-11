@@ -1,1 +1,6 @@
-
+# Objectives
+1. Virtual Machine
+2. Virtual Networking
+3. Active Directory
+4. Storage Account
+5. Key vault/App Services/ Kubernetes services
