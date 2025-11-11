@@ -1,2 +1,3 @@
 # azure-devops
-learning
+learnings from azure devops online.
+taking notes.
