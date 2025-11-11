@@ -1,2 +1,24 @@
 ## virtual-networking ##
 
+subnetting
+subnet-masking
+ip
+public-ip
+
+physical networking:
+LAN -> Local-area-network
+NIC -> network-interface-card
+Router+Modem -> single device
+switches - for diff. connections to other people.
+combination of such switches form LAN, various combinations of such LANs form WAN
+
+public ips are not fixed provided by ISP(InternetServiceProvider) dynamically allocated
+private or permanent ips are not free and shall be obtained from ISPs
+
+10.0.0.0/16 - 65534 private-ips
+
+each device will have a private-ip allocated to it without which no communication is possible
+since we have a large range, we will be wasting large number if ips so need to break them into small ranges
+subnetting - practice of dividing a larger n/w into smaller groups, this increases routing efficiency and network-security
+            reduce the broadcast size.
+      10.0.1.0/24 - 255 private-ips
