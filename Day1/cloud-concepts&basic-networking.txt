@@ -42,6 +42,4 @@ there are big players AWS, Azure, GCP. multiple locations are tightly coupled
 with which we can achieve response in micro seconds, this serves a classic example of IaaS
 
 - companies prefer multi-cloud and hybrid service providers
-
-
-
+availability, redendency,
