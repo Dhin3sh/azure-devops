@@ -8,6 +8,7 @@ IaaS - Infrastructure as a service
   e.g: AWS, Azure, GCP,
 On-Prem - manage local data center
   e.g: Local Data Center
+on-prem are not highly available.
 
 ## shared-responsibility-model ##
 M - Microsoft, C - customer, S - Shared
