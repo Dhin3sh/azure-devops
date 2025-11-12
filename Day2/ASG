@@ -4,3 +4,5 @@ Application security group enables you to configure network security, allowing y
   - ASGs can be set as source or destination on an NSG
   - NSGs would still be required if the VMs are grouped together with ASGs
 ASGs -> logical grouping of VMs
+
+NSG | NIC
