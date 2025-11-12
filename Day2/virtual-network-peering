@@ -6,4 +6,16 @@ azure supports 2 types of network peering
 
 Vnet peering:
 - enables to conect 2/more virtual network in the azure cloud
-- uses microsoft backbone infrastructure
+- uses microsoft backbone infrastructure to share traffic so no latency and high benefit connection.
+
+
+NAT gateway -> Network address translation
+  - has a public ip, all the traffic are routed to NAT gateway.
+  - 
+
+Bastion Host
+  - basically a VM managed by microsoft, helps to connect to VMs with browser,a fully managed PaaS service
+  - will be inside our network
+  - has its own subnet, NSG
+  - all the traffic will be routed to Bastion host
+  - no generic ports are open
