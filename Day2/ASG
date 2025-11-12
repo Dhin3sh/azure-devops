@@ -6,3 +6,12 @@ Application security group enables you to configure network security, allowing y
 ASGs -> logical grouping of VMs
 
 NSG | NIC
+
+NIC is a device similar to a hardware device connected to our personal device.
+NSG is a security group inside the virtual network.
+
+devops    - general information on all the devops tools
+devsecops - security in each layer,
+
+GIT security:
+    does not allow even local commit, if the file has any access related informations like access keys.
