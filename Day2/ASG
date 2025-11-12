@@ -1,0 +1,6 @@
+## ASG ##
+
+Application security group enables you to configure network security, allowing you to group virtual machines and define network security policies based on those groups.
+  - ASGs can be set as source or destination on an NSG
+  - NSGs would still be required if the VMs are grouped together with ASGs
+ASGs -> logical grouping of VMs
