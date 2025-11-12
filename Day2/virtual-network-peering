@@ -1,0 +1,9 @@
+## vnet-peering ##
+
+azure supports 2 types of network peering
+1. VNET-Peering
+2. Global-Network-Peering
+
+Vnet peering:
+- enables to conect 2/more virtual network in the azure cloud
+- uses microsoft backbone infrastructure
