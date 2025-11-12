@@ -6,3 +6,6 @@
 -  Load Balancer
 -  Azure Storage Redundency
 -  Azure Site Recovery
+
+pricing calculator - https://azure.microsoft.com/en-in/pricing/calculator/
+Chosing VM family  - https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/overview?tabs=breakdownseries%2Cgeneralsizelist%2Ccomputesizelist%2Cmemorysizelist%2Cstoragesizelist%2Cgpusizelist%2Cfpgasizelist%2Chpcsizelist
