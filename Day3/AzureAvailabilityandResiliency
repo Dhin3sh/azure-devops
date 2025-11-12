@@ -1,11 +1,14 @@
 ## Azure Availability and Resiliency ##
 
+pricing calculator - https://azure.microsoft.com/en-in/pricing/calculator/
+Chosing VM family  - https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/overview?tabs=breakdownseries%2Cgeneralsizelist%2Ccomputesizelist%2Cmemorysizelist%2Cstoragesizelist%2Cgpusizelist%2Cfpgasizelist%2Chpcsizelist
+
+Resilient - ability to still continue to work under any failure.
+
 -  Availability Zones
+   . if any zone is compromised, then the application and data will be available on other zones.
 -  Availability Sets
 -  VM Scale Sets
 -  Load Balancer
 -  Azure Storage Redundency
 -  Azure Site Recovery
-
-pricing calculator - https://azure.microsoft.com/en-in/pricing/calculator/
-Chosing VM family  - https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/overview?tabs=breakdownseries%2Cgeneralsizelist%2Ccomputesizelist%2Cmemorysizelist%2Cstoragesizelist%2Cgpusizelist%2Cfpgasizelist%2Chpcsizelist
